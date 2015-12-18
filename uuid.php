@@ -32,7 +32,7 @@ while ($info = $stmt->fetch()) {
             echo "$number [Modification] UUID: $UUID | IG: $PseudoIG <br>";
         }
 
-    sleep(2);
+    sleep(1);
     $number++;
 }
 
